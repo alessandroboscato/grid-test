@@ -19,15 +19,24 @@ body {
   background-color: #eee;
 }
 
-.special-item {
+.special-item-1 {
   background-color: cornflowerblue;
-  /* grid-area: look; */
   display: none;
 }
-
-.special-item-second {
+.special-item-2 {
   background-color: cornflowerblue;
-  grid-area: looksecond;
+  display: none;
+}
+.special-item-3 {
+  background-color: cornflowerblue;
+  display: none;
+}
+.special-item-4 {
+  background-color: cornflowerblue;
+  display: none;
+}
+.special-item-5 {
+  background-color: cornflowerblue;
   display: none;
 }
 
@@ -47,70 +56,57 @@ img {
 
 @media screen and (min-width: 930px) {
 
-  .special-item {
+  .special-item-1 {
     display: block;
     grid-area: 1 / 3 / 3 / 5;
   }
 
-  .special-item-second {
+  .special-item-2 {
     display: block;
-    grid-area: 5 / 1 / 7 / 3;
+    grid-area: 4 / 1 / 6 / 3;
   }
-  /* .grid {
-    grid-template-areas:
-    "none none look look"
-    "none none look look";
-  } */
+
+  .special-item-3 {
+    display: block;
+    grid-area: 4 / 1 / 6 / 3;
+  }
 }
 
 @media screen and (min-width: 1140px) {
 
-  .special-item {
+  .special-item-1 {
     display: block;
     grid-area: 1 / 4 / 3 / 6;
   }
 
-  .special-item-second {
+  .special-item-2 {
     display: block;
     grid-area: 5 / 1 / 7 / 3;
   }
-  /* .grid {
-    grid-template-areas: "none none none look look"
-                         "none none none look look";
-  } */
 }
 
 @media screen and (min-width: 1350px) {
 
-  .special-item {
+  .special-item-1 {
     display: block;
     grid-area: 1 / 5 / 3 / 7;
   }
 
-  .special-item-second {
+  .special-item-2 {
     display: block;
     grid-area: 5 / 1 / 7 / 3;
   }
-  /* .grid {
-    grid-template-areas: "none none none none look look"
-                         "none none none none look look";
-  } */
 }
 
 @media screen and (min-width: 1560px) {
 
-  .special-item {
+  .special-item-1 {
     display: block;
     grid-area: 1 / 6 / 3 / 8;
   }
 
-  .special-item-second {
+  .special-item-2 {
     display: block;
     grid-area: 5 / 1 / 7 / 3;
   }
-
-  /* .grid {
-    grid-template-areas: "none none none none none look look"
-                         "none none none none none look look";
-  } */
 }
