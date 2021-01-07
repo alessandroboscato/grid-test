@@ -12,10 +12,10 @@ $(window).resize(function(){
    var windowH = $(this).height();
    var windowW = $(this).width();
    console.log(windowW+'X'+windowH);
-   if( windowH > range ) {
-      $('.special-item').show();
+   if( windowH < range ) {
+      $('.special-item-2').hide();
    }else{
-      $('.special-item').hide();
+      $('.special-item-2').show();
    }
  });
 });

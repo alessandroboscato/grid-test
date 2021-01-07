@@ -13,7 +13,7 @@
     <div class="grid">
       <!-- change this value to display as many looks as you want -->
 
-      <?php for ($j = 0; $j < 5; $j++){ ?>
+      <?php for ($j = 0; $j < 3; $j++){ ?>
           <div class="special-item-<?php echo $j ?>">
             <img class="look" src="img/5419_1.jpg" alt="">
           </div>
