@@ -11,28 +11,18 @@
   <body>
 
     <div class="grid">
+      <!-- change this value to display as many looks as you want -->
 
-      <div class="special-item-1">
-        <img class="look" src="img/5419_1.jpg" alt="">
-      </div>
+      <?php for ($j = 0; $j < 5; $j++){ ?>
+          <div class="special-item-<?php echo $j ?>">
+            <img class="look" src="img/5419_1.jpg" alt="">
+          </div>
+        <?php } ?>
 
-      <div class="special-item-2">
-        <img class="look" src="img/5419_1.jpg" alt="">
-      </div>
 
-      <div class="special-item-3">
-        <img class="look" src="img/5419_1.jpg" alt="">
-      </div>
 
-      <div class="special-item-4">
-        <img class="look" src="img/5419_1.jpg" alt="">
-      </div>
-
-      <div class="special-item-5">
-        <img class="look" src="img/5419_1.jpg" alt="">
-      </div>
-
-      <?php for ($i = 0; $i < 20; $i++){ ?>
+      <!-- change this value to display as many results as you want -->
+      <?php for ($i = 0; $i < 16; $i++){ ?>
           <div class="item">
             <img src="img/k013_ai20_1.jpg" alt="">
             <div class="product-details">
