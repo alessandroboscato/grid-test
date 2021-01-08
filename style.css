@@ -20,12 +20,13 @@ img {
   height: 400px;
 }
 
-.look {
+.look-box {
   display: none;
 }
 
 
 @supports (display: grid) {
+
   .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -33,16 +34,12 @@ img {
     grid-gap: 10px;
   }
 
-  .item {
-    background-color: #eee;
-  }
-
-
-
   .look {
     height: 100%;
   }
 
+
+  /* example on height of fext inside boxes */
   .product-details {
     height: 50px;
   }
@@ -124,28 +121,28 @@ img {
     }
 
     .special-item-1 {
-      display: block;
+      /* display: block; */
       grid-area: 5 / 1 / 7 / 3;
 
     }
 
     .special-item-2 {
-      display: block;
+      /* display: block; */
       grid-area: 9 / 5 / 11 / 7;
     }
 
     .special-item-3 {
-      display: block;
+      /* display: block; */
       grid-area: 13 / 1 / 15 / 3;
     }
 
     .special-item-4 {
-      display: block;
+      /* display: block; */
       grid-area: 17/ 5 / 19 / 7;
     }
 
     .special-item-5 {
-      display: block;
+      /* display: block; */
       grid-area: 21 / 1 / 23 / 3;
     }
 
@@ -160,28 +157,28 @@ img {
     }
 
     .special-item-1 {
-      display: block;
+      /* display: block; */
       grid-area: 5 / 1 / 7 / 3;
 
     }
 
     .special-item-2 {
-      display: block;
+      /* display: block; */
       grid-area: 9 / 6 / 11 / 8;
     }
 
     .special-item-3 {
-      display: block;
+      /* display: block; */
       grid-area: 13 / 1 / 15 / 3;
     }
 
     .special-item-4 {
-      display: block;
+      /* display: block; */
       grid-area: 17/ 6 / 19 / 8;
     }
 
     .special-item-5 {
-      display: block;
+      /* display: block; */
       grid-area: 21 / 1 / 23 / 3;
     }
 

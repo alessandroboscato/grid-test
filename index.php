@@ -13,15 +13,15 @@
     <div class="grid">
       <!-- change this value to display as many looks as you want -->
 
-      <?php for ($j = 0; $j < 3; $j++){ ?>
-          <div class="look special-item-<?php echo $j ?>">
+      <?php for ($j = 0; $j < 6; $j++){ ?>
+          <div class="look-box special-item-<?php echo $j ?>">
             <img class="look" src="img/5419_1.jpg" alt="">
           </div>
         <?php } ?>
 
 
       <!-- change this value to display as many results as you want -->
-      <?php for ($i = 0; $i < 20; $i++){ ?>
+      <?php for ($i = 0; $i < 21; $i++){ ?>
           <div class="item">
             <img src="img/k013_ai20_1.jpg" alt="">
             <div class="product-details">
