@@ -62,6 +62,10 @@ $(window).resize(function(){
    if (container > 3990) {
     $('.look-box.special-item-2').show();
      }
+
+     if (container > 5990) {
+      $('.look-box.special-item-3').show();
+       }
    }
  });
 });
