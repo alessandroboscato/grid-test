@@ -64,12 +64,27 @@ img {
 
   .special-item-1 {
     display: block;
-    grid-area: 4 / 1 / 6 / 3;
+    grid-area: 5 / 1 / 7 / 3;
   }
 
   .special-item-2 {
     display: block;
-    grid-area: 7 / 3 / 9 / 5;
+    grid-area: 9 / 3 / 11 / 5;
+  }
+
+  .special-item-3 {
+    display: block;
+    grid-area: 13 / 1 / 15 / 3;
+  }
+
+  .special-item-4 {
+    display: block;
+    grid-area: 17 / 3 / 19 / 5;
+  }
+
+  .special-item-5 {
+    display: block;
+    grid-area: 21 / 1 / 23 / 3;
   }
 }
 
