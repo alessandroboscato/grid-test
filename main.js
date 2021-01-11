@@ -11,29 +11,15 @@ console.log(windowW);
 console.log(container);
 
 // intructions to display looks depending on height grid container
-if (windowW < 930){
-  $('.look-box.special-item-0').hide();
-  $('.look-box.special-item-1').hide();
-  $('.look-box.special-item-2').hide();
-  $('.look-box.special-item-3').hide();
-  $('.look-box.special-item-4').hide();
-  $('.look-box.special-item-5').hide();
-};
 
 if (windowW > 930) {
 
     if (container < 1990) {
       $('.look-box.special-item-0').show();
-
     }
 
     if (container > 1990) {
-    $('.look-box.special-item-0').show();
     $('.look-box.special-item-1').show();
-    $('.look-box.special-item-2').hide();
-    $('.look-box.special-item-3').hide();
-    $('.look-box.special-item-4').hide();
-    $('.look-box.special-item-5').hide();
   };
 
   if (container > 3990) {
@@ -64,6 +50,16 @@ if (windowW > 930) {
    $('.look-box.special-item-5').show();
   };
 }
+
+
+
+
+
+
+
+
+
+
 
 
 //for getting current values

@@ -24,6 +24,9 @@ img {
   display: none;
 }
 
+body {
+  background-color:
+}
 
 @supports (display: grid) {
 
