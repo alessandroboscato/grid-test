@@ -54,7 +54,7 @@ img {
   @media screen and (min-width: 930px) {
 
     .special-item-0 {
-      display: block;
+      /* display: block; */
       grid-area: 1 / 3 / 3 / 5;
     }
 
@@ -165,7 +165,6 @@ img {
     .special-item-1 {
       /* display: block; */
       grid-area: 5 / 1 / 7 / 3;
-
     }
 
     .special-item-2 {
@@ -202,17 +201,17 @@ img {
       }
 
       .special-item-2 {
-        display: block;
+        /* display: block; */
         grid-area: 4 / 4 / 6 / 6;
       }
 
       .special-item-3 {
-        display: block;
+        /* display: block; */
         grid-area: 7 / 1 / 9 / 3;
       }
 
       .special-item-4 {
-        display: block;
+        /* display: block; */
         grid-area: 7 / 7 / 9 / 9;
       }
   }

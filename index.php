@@ -15,15 +15,15 @@
 
       <?php for ($j = 0; $j < 6; $j++){ ?>
           <div class="look-box special-item-<?php echo $j ?>">
-            <img class="look" src="img/5419_1.jpg" alt="">
+            <img class="look" src="img/k013_ai20_1.jpg" src="img/5419_1.jpg" alt="">
           </div>
         <?php } ?>
 
 
       <!-- change this value to display as many results as you want -->
-      <?php for ($i = 0; $i < 32; $i++){ ?>
+      <?php for ($i = 0; $i < 9; $i++){ ?>
           <div class="item">
-            <img src="img/k013_ai20_1.jpg" alt="">
+            <img src="img/5419_1.jpg" alt="">
             <div class="product-details">
               <h4>Jeans cotone</h4>
               <p>ABITO IN TESSUTO <?php echo $i ?></p>
