@@ -10,7 +10,7 @@ console.log(container);
 
 if (windowW > 930) {
 
-    if (container < 1990) {
+    if (container = 490) {
       $('.look-box.special-item-0').show();
     };
 
@@ -38,6 +38,12 @@ if (windowW > 930) {
   // if (container > 11990) {
   //  $('.look-box.special-item-5').show();
   // };
+
+  var windowW = $(window).width();
+  var container = $(".grid").height();
+  console.log(windowW);
+  console.log(container);
+
 }
 
 });
