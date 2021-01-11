@@ -21,7 +21,7 @@
 
 
       <!-- change this value to display as many results as you want -->
-      <?php for ($i = 0; $i < 12; $i++){ ?>
+      <?php for ($i = 0; $i < 37; $i++){ ?>
           <div class="item">
             <img src="img/5419_1.jpg" alt="">
             <div class="product-details">
