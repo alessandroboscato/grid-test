@@ -23,16 +23,17 @@ if (windowW > 930) {
       $('.look-box.special-item-2').show();
     };
 
-    if (container > 4990) {
+    if (container > 4490) {
       $('.look-box.special-item-3').show();
     };
 
-  //
-  //
-  // if (container > 7990) {
-  //  $('.look-box.special-item-4').show();
-  //  $('.look-box.special-item-5').hide();
-  // };
+    if (container > 5990) {
+      $('.look-box.special-item-4').show();
+    };
+
+    if (container > 7490) {
+      $('.look-box.special-item-5').show();
+    };
   //
   // if (container > 11990) {
   //  $('.look-box.special-item-5').show();
