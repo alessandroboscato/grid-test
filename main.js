@@ -22,6 +22,11 @@ if (windowW < 930){
 
 if (windowW > 930) {
 
+    if (container < 1990) {
+      $('.look-box.special-item-0').show();
+
+    }
+
     if (container > 1990) {
     $('.look-box.special-item-0').show();
     $('.look-box.special-item-1').show();
@@ -32,6 +37,7 @@ if (windowW > 930) {
   };
 
   if (container > 3990) {
+    $('.look-box.special-item-0').show();
     $('.look-box.special-item-1').show();
    $('.look-box.special-item-2').show();
    $('.look-box.special-item-3').hide();
@@ -40,10 +46,14 @@ if (windowW > 930) {
   };
 
   if (container > 5990) {
-   $('.look-box.special-item-3').show();
-   $('.look-box.special-item-4').hide();
-   $('.look-box.special-item-5').hide();
+    $('.look-box.special-item-0').show();
+    $('.look-box.special-item-1').show();
+    $('.look-box.special-item-2').show();
+    $('.look-box.special-item-3').show();
+    $('.look-box.special-item-4').hide();
+    $('.look-box.special-item-5').hide();
   };
+
 
   if (container > 7990) {
    $('.look-box.special-item-4').show();
@@ -54,7 +64,6 @@ if (windowW > 930) {
    $('.look-box.special-item-5').show();
   };
 }
-
 
 
 //for getting current values
